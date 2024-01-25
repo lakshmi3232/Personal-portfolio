@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/69d1526178.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"> 
+  </script> 
+</head>
+
+<body>
+    <header>
+        <div class="spacer"></div>
+        <ul id="ul--container">
+            <li><a href="#home"><b>Home</b></a></li>
+            <li><a href="#about"><b>About</b></a></li>
+            <li><a href="#skills"><b>Skills</b></a></li>
+            <li><a href="#experience"><b>Experience</b></a></li>
+            <li><a href="#services"><b>Services</b></a></li>
+            <li><a href="#contact"><b>Contact me</b></a></li>
+        </ul>
+        <div id="icon">
+            <a href="javascript:void(0);" onclick=myFunction()>
+                <i class="fa-solid fa-bars" style="color:white;"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <img src="./Images/backgroundwhite.png" alt="yellow">
+            <div class="home--content">
+                <p class="para1">I am <span class="Name">Lakshmi Elangovan</span></p><br>
+                <p class="para2">
+                    <span class="Name">HR and Business Development Manager</span>
+                    <a href="https://wizinoa.com/">@WIZinoa</a>
+                </p><br>
+                <div class="social--media">
+                    <a href="https://www.linkedin.com/in/lakshmi-elangovan-030810217/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lakshmi_elangovan/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/lak.laksha?mibextid=LQQJ4d" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="mailto:lakshmi.e@wizinoa.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="about--container">
+                <aside>
+                    <img src="./Images/Lakshmi mam.jpg" alt="Lakshmi">
+                </aside>
+                <section class="section--container">
+                    <div class="section--head">Something About me</div>
+                    <p class="section--content">
+                        As an HR Manager with seven transformative years under my belt, I've woven a rich tapestry of
+                        organizational achievements.
+                        Championing talent strategies, I've consistently linked human potential to business triumphs.
+                        <br><br>
+                        Navigating the multifaceted world of HR, I've become a maestro in employee engagement and an
+                        advocate for harmonious work environments.
+                        My approach isn't just about filling roles—it's about understanding the synergy between
+                        individual passion and corporate vision.
+                        Adept at harnessing data insights, my decisions aren't just intuitive, but empirically
+                        grounded.<br><br>
+                        I've steered teams through changing tides with agility, always with an eye on the horizon for
+                        innovative HR paradigms.
+                        My journey has been one of shaping cultures, molding leaders, and crafting stories of success..
+                    </p>
+                    <button class="button"><a href="#contact">Contact me</a></button>
+                </section>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="skill--container">
+                <div class="skill--head">My skills</div>
+                <p class="skill--para">
+                    Human Resources (HR) professionals require a diverse set of skills to effectively manage an
+                    organization's workforce and support its overall goals.
+                    These skills are some of mine.
+                </p>
+                <div class="carousal--container">
+                    <div class="carousel-wrapper" id="carousal_ID">
+                        <div class="skill1">
+                            <img src="./Images/1684350420047.jpeg" alt="Business-development">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>BUSINESS DEVELOPMENT MANAGER</b></p>
+                                <p class="carousal--para">
+                                    A Business Development Manager (BDM) is a professional responsible for identifying 
+                                    business opportunities, building relationships, and driving the growth of a company. 
+                                    The specific responsibilities of a Business Development Manager may vary depending 
+                                    on the industry and the size of the organization.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill2">
+                            <img src="./Images/emp-relations.jpg" alt="emp-relations">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>EMPLOYEE RELATIONS</b></p>
+                                <p class="carousal--para">
+                                    Employee relations skills are essential for creating a positive and productive work
+                                    environment, fostering strong relationships between employees and management, and
+                                    ensuring overall job satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill3">
+                            <img src="./Images/Performance-Management.png" alt="Performance-Management">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>PERFORMANCE MANAGEMENT</b></p>
+                                <p class="carousal--para">
+                                    Performance management is a crucial skill for managers and leaders in any
+                                    organization.
+                                    It involves a series of processes and activities aimed at ensuring that employees
+                                    and teams are working effectively and efficiently to achieve organizational goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill4">
+                            <img src="./Images/training&development.png" alt="training--development">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>TRAINING & DEVELOPMENT</b></p>
+                                <p class="carousal--para">
+                                    Training and development are critical functions within an organization, as they are
+                                    instrumental in enhancing employee skills, knowledge, and competencies.
+                                    Effective training and development programs help employees perform better in their
+                                    current roles and prepare for future responsibilities.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill5">
+                            <img src="./Images/compensation-benefits.jpeg" alt="compensation-benefits">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>COMPENSATION & BENEFITS</b></p>
+                                <p class="carousal--para">
+                                    Compensation and benefits (C&B) management is a critical function within human
+                                    resources and plays a crucial role in attracting, retaining, and motivating
+                                    employees.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill6">
+                            <img src="./Images/Organisation-Development.jpg" alt="Organisation-Development">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>ORGANIZTION & DEVELOPMENT</b></p>
+                                <p class="carousal--para">
+                                    Organizational development (OD) is a systematic process for enhancing an
+                                    organization's effectiveness and efficiency by improving its systems, structures,
+                                    and processes, as well as the skills and abilities of its employees.
+                                    To be successful in the field of organizational development, it's important to have
+                                    a diverse skill set.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill7">
+                            <img src="./Images/strategic-planning.jpg" alt="strategic-planning">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>STRATEGIC PLANNING</b></p>
+                                <p class="carousal--para">
+                                    Strategic planning is a vital process for organizations to set clear goals, define
+                                    their direction, and make informed decisions about resource allocation.
+                                    Effective strategic planning requires a combination of skills and competencies.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill8">
+                            <img src="./Images/leadership&team-management.jpg" alt="leadership--team-management">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>LEADERSHIP & TEAM MANAGEMENT</b></p>
+                                <p class="carousal--para">
+                                    Leadership and team management are crucial skills for individuals in supervisory or
+                                    managerial roles.
+                                    Effective leadership involves guiding a team towards common goals, fostering a
+                                    positive work environment, and helping team members reach their full potential.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill9">
+                            <img src="./Images/data-analytics-skills.jpeg" alt="data-analysis">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>DATA ANALYSIS</b></p>
+                                <p class="carousal--para">
+                                    Data analysis is a critical skill in today's data-driven world, as it involves the
+                                    process of inspecting, cleaning, transforming, and modeling data to discover useful
+                                    information, draw conclusions, and support decision-making.
+                                    Data analysis is a versatile skill applicable in various fields, including business,
+                                    healthcare, science, and more.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill10">
+                            <img src="./Images/budgetting.png" alt="budget">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>BUDGETTING</b></p>
+                                <p class="carousal--para">
+                                    Budgeting is a fundamental financial management skill that involves planning,
+                                    tracking, and controlling expenses and revenues to achieve financial goals.
+                                    Whether it's for personal finance or within an organization, effective budgeting is
+                                    essential.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill11">
+                            <img src="./Images/stakeholder.jpg" alt="stakeholder">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>STAKE HOLDER MANAGEMENT</b></p>
+                                <p class="carousal--para">
+                                    Effective stakeholder management is crucial in various fields, such as business,
+                                    project management, government, and nonprofit organizations.
+                                    The skill of stakeholder management involves engaging with and managing
+                                    relationships with individuals, groups, or organizations that have an interest or
+                                    "stake" in a particular project, initiative, or business.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill12">
+                            <img src="./Images/project-management.jpg" alt="project-management">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>PROJECT MANAGEMENT</b></p>
+                                <p class="carousal--para">
+                                    Project management is a critical skill for individuals responsible for planning,
+                                    executing, and overseeing projects in various fields and industries.
+                                    It involves the effective management of resources, time, and scope to achieve
+                                    specific objectives within a set timeframe and budget.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill13">
+                            <img src="./Images/Business-Ethics.jpg" alt="Business-Ethics">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>ETHICAL PRACTICE</b></p>
+                                <p class="carousal--para">
+                                    Ethical practice is a fundamental aspect of personal and professional conduct that
+                                    involves making morally sound and responsible decisions.
+                                    Ethical skills and competencies are essential in various areas of life, including
+                                    business, healthcare, education, and more.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="skill14">
+                            <img src="./Images/recruitment-vs-talent-acquisition.png"
+                                alt="recruitment--talent-acquisition">
+                            <div class="carousal--content">
+                                <p class="carousal--head"><b>RECRUITMENT & TALENT ACQUISITION</b></p>
+                                <p class="carousal--para">
+                                    Recruitment and talent acquisition are critical skills for building a successful
+                                    organization.
+                                    These skills involve finding, attracting, and hiring the right individuals who can
+                                    contribute to the company's goals and objectives.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prev">
+                        <button type="button" onclick="tap(0)"><</button>
+                    </div>
+                    <div class="next">
+                        <button type="button" onclick="tap(1)">></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="experience">
+            <div class="exp--container">
+                <div class="exp--head">My Experience</div>
+                <div class="timeline">
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2023</h2><br>
+                            <p>Promoted to senior HR Manager now and so on.</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2020-2022</h2><br>
+                            <ul>
+                                <li>Promoted as HR manager on <b>2020.</b> </li>
+                                <li>Won best HR award on <b>2021</b> from Kevill corp</li>
+                                <li>Won the best employee relation HR award on <b>2022</b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2019</h2><br>
+                            <p>Promoted as a senior HR executive</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2016</h2><br>
+                            <p>Started my career as a HR executive
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="service--container">
+                <div class="service--head">Services I provide</div>
+                <div class="service--content">
+                    <div class="career--guidance">
+                        <img src="./Images/career-guidance.jpg" alt="cgpic">
+                        <div class="cg--content">
+                            <p class="sc--title"><b>CAREER GUIDANCE</b></p>
+                            <p class="sc--content">
+                                Career guidance services are designed to help individuals make informed decisions about
+                                their education and career paths.
+                                These services can be valuable at various stages of one's life, whether you're a student
+                                choosing a major, a professional seeking a career change, or someone reentering the
+                                workforce.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="employee--counselling">
+                        <img src="./Images/employee-counselling.jpg" alt="ecpic">
+                        <div class="ec--content">
+                            <p class="sc--title"><b>EMPLOYEE COUNSELLING</b></p>
+                            <p class="sc--content">
+                                Employee counseling services, often referred to as Employee Assistance Programs (EAPs),
+                                are valuable resources provided by employers to support the mental and emotional
+                                well-being of their employees.
+                                These services are designed to help employees manage personal and work-related
+                                challenges that may affect their overall health, productivity, and job satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Mentorship">
+                        <img src="./Images/Mentorship.jpg" alt="mentorship">
+                        <div class="mentor--content">
+                            <p class="sc--title"><b>MENTORSHIP</b></p>
+                            <p class="sc--content">
+                                Mentorship is a valuable service that connects individuals seeking guidance and support
+                                with more experienced individuals who can provide advice, knowledge, and expertise in a
+                                particular field or area.
+                                Mentorship relationships can be formal or informal and often serve the purpose of
+                                personal and professional development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="contact--container">
+                <p class="contact--head">Feel free to contact...</p>
+                <div class="contact--content">
+                    <p class="content1">Get in touch</p>
+                    <form id="loginForm" name="contact" novalidate onsubmit="validateForm(event)">
+                        <input type="text" id="fname" placeholder="Your Name" min="4" max="8">
+                        <p id="display1" style='color:red;font-size: 13px;'></p>
+                        <input type="email" id="Mail" placeholder="Email" required>
+                        <p id="display2" style='color:red;font-size: 13px;'></p>
+                        <input type="text" id="subject" placeholder="Your subject" required>
+                        <p id="display3" style='color:red;font-size: 13px;'></p>
+                        <textarea id="text-area" cols="70" rows="10" placeholder="Message" required></textarea>
+                        <p id="display4" style='color:red;font-size: 13px;'></p><br>
+                        <button class="button" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <div class="footer-1a">
+                <p class="fhead"><b>Contact</b></p>
+                <div class="contact--at">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p> Madurai, Tamil Nadu</p>
+                </div>
+                <div class="contact--at">
+                    <i class="fa-solid fa-phone"></i>
+                    <p> +91 6380243232</p>
+                </div>
+                <div class="contact--at">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>lakshmi.e@wizinoa.com</p>
+                </div>
+            </div>
+            <div class="footer-1b">
+                <p class="fhead"><b>Find me on</b></p>
+                <div>
+                    <a href="https://www.linkedin.com/in/lakshmi-elangovan-030810217/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/lakshmi_elangovan/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/lak.laksha?mibextid=LQQJ4d" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="mailto:lakshmi.e@wizinoa.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer2">
+            <p>Designed by :- Ashwin Balaji</p>
+        </div>
+    </footer>
+</body>
+
+</html>
